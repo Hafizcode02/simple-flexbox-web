@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  font-family: "Recursive", sans-serif;
+  background: #efefef;
+}
+
+header {
+  margin: 0 auto;
+  background-color: #4c4177;
+  background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+  padding: 20px 0px 10px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.rounded-image {
+  width: 130px;
+  height: 130px;
+  border-radius: 70px;
+  object-fit: cover;
+  object-position: cover;
+}
+
+.header-text {
+  color: #fff;
+  font-size: 1.7em;
+}
+
+.detail-header-text {
+  color: #fff;
+  font-size: 1em;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.m-t-5px {
+  margin-top: 5px;
+}
+
+.m-tbpx {
+  margin: 20px 0px;
+}
+
+.m-t-b-15px {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.social {
+  display: inline;
+}
+
+.social ul {
+  padding-inline-start: unset;
+}
+
+.social a {
+  color: white;
+  font-size: 1.1em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.social li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.coming-soon {
+  margin-top: 130px;
+  text-align: center;
+  font-size: 2em;
+}
+
+main {
+  width: 100%;
+  display: flex;
+}
+
+@media screen and (max-width: 1000px) {
+  main {
+    flex-direction: column;
+  }
+  .flex-project {
+    flex-direction: column;
+  }
+}
+
+.flex-horizontal-75 {
+  flex-basis: 75%;
+  color: black;
+}
+
+.flex-horizontal-25 {
+  flex-basis: 25%;
+  color: black;
+}
+
+.first-content {
+  padding: 23px 23px 10px 23px;
+}
+
+.content {
+  padding: 0px 23px 10px 23px;
+}
+
+.unset {
+  margin: unset;
+}
+
+.title-content {
+  font-size: 1.5em;
+}
+
+.justify {
+  text-align: left;
+}
+
+.bolder {
+  font-weight: bold;
+}
+
+.top-set-10 {
+  margin-top: 10px;
+}
+
+.flex-project {
+  display: flex;
+}
+
+.project {
+  flex-basis: 33%;
+  text-align: center;
+}
+
+.image-project {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card {
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.project .card:hover {
+  background-color: cornflowerblue;
+}
+
+footer {
+  background-color: #4c4177;
+  background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+  padding: 20px;
+}
+
+footer p {
+  color: white;
+}
+
+.border {
+  border: 2px solid gray;
+}
+
+th {
+  float: left;
+}
+
+table td {
+  float: right;
+}
+
+.m-r-l-10px {
+  margin-left: 10px;
+  margin-right: 10px;
+}
